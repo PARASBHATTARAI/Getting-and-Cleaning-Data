@@ -66,11 +66,17 @@ colNames <- colnames(setAllInOne)
 
 #2.2 Create vector for defining ID, mean and standard deviation:
 
+<<<<<<< HEAD
 mean_and_std <- (grepl("activityId" , colNames) | 
                    grepl("subjectId" , colNames) | 
                    grepl("mean.." , colNames) | 
                    grepl("std.." , colNames) 
 )
+=======
+
+str(FinalData)
+FinalData
+>>>>>>> 7b814a84b779095664156e0d02aa314b58575ae5
 
 #2.3 Making nessesary subset from setAllInOne:
 
